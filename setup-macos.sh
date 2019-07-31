@@ -27,7 +27,7 @@ defaults write com.apple.dock minimize-to-application -bool true
 defaults write com.apple.dock autohide -bool true
 
 # System Preferences > Dock > Automatically hide and show the Dock (duration)
-defaults write com.apple.dock autohide-time-modifier -float 0.5
+defaults write com.apple.dock autohide-time-modifier -float 0.25
 
 # System Preferences > Dock > Automatically hide and show the Dock (delay)
 defaults write com.apple.dock autohide-delay -float 0
@@ -72,10 +72,10 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -bool
 # Finder > Preferences > Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Finder > Preferences > Show wraning before changing an extension
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+# Finder > Preferences > Show warning before changing an extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool true
 
-# Finder > Preferences > Show wraning before removing from iCloud Drive
+# Finder > Preferences > Show warning before removing from iCloud Drive
 defaults write com.apple.finder FXEnableRemoveFromICloudDriveWarning -bool false
 
 # Finder > View > As List
